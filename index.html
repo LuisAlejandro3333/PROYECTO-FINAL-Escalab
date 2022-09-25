@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>PROYECTO FINAL</title>
+
+</head>
+
+<body>
+     <main>
+        <section>
+            <h1>Giphy Explorer</h1>
+
+            <form id="formulario">
+                
+            <input type="search" class="agregar-text" id="search" placeholder="ingresa tu busqueda">
+            <input type="hidden" class="agregar-text" id="search2" placeholder="ingresa tu busqueda" value="">
+            <button type="submit" class="button_buscar" id="boton">Buscar</button>
+
+            </form>
+
+        <div id="listaBusquedas">
+        </div>
+
+        </section>
+        <div id="galeria" onclick="searchFunction()">
+        </div>  
+    
+        </main>
+
+    <script src="./main.js"></script>   
+    <script src="./localStorage.js"></script>
+</body>
+</html>
